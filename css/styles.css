@@ -12,6 +12,7 @@ body {
     font-size: .875em;
     font-family: 'Montserrat', sans-serif;
     display: flex;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
     background-color: hsl(30, 38%, 92%);
