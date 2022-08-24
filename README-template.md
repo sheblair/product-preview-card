@@ -55,6 +55,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 **work on a branch!!! always work on a mf-ing branch. i now have to discard all of my changes and start over because something went incredibly wonky and i was doing all of my changes on my main branch. facepalm
 
+**continued learning when to use padding vs when to use margins. had a major layout issue on desktop styles that was solved by me replacing a margin with a padding
+
 ### Continued development
 
 - continue improving workflow (mobile-first, always on a branch)
