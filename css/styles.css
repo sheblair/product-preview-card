@@ -103,10 +103,7 @@ button:hover {
 }
 
 @media (min-width: 1200px) {
-    /*body {
-        flex-flow: row wrap;
-    }*/
-
+  
     #content-wrapper {
         width: 600px;
         display: flex;
@@ -116,25 +113,37 @@ button:hover {
     }
 
     #image {
-        height: 450px;
+        height: 446px;
         width: 300px;
         background: url(../images/image-product-desktop.jpg);
         background-size: cover;
-        background-repeat: no-repeat;
         margin: 0;
         border-radius: 10px 0 0 10px;
     }
 
     #content {
         width: 300px;
+        padding: 0 30px 0 35px;
+    }
+
+    #label {
+        padding: 35px 0 25px;
+    }
+
+    #information h1 {
+        padding-bottom: 30px;
     }
 
     #description {
-        margin-bottom: 30px;
+        padding-bottom: 40px;
+    }
+
+    #price p {
+        padding: 0 70px 0 25px;
     }
 
     #price {
-        margin-bottom: 40px;
+        padding-bottom: 30px;
     }
 
     #cart-button {
@@ -144,6 +153,6 @@ button:hover {
     }
 
     .button {
-        margin-bottom: 10px;
+        margin-bottom: 30px;
     }
 }
