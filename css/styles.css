@@ -16,6 +16,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: hsl(30, 38%, 92%);
+    min-height: 100vh;
 }
 
 h1 {
@@ -109,11 +110,10 @@ button:hover {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 100px;
     }
 
     #image {
-        height: 446px;
+        height: 480px;
         width: 300px;
         background: url(../images/image-product-desktop.jpg);
         background-size: cover;
