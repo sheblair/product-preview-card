@@ -132,6 +132,7 @@ p {
         max-width: 600px;
         max-height: 450px;
         flex-direction: row;
+        margin: 100px auto;
     }
 
     .card__content-container {
