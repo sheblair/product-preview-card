@@ -62,6 +62,8 @@ I didn't do a great job documenting my process during the first phase, when I in
 - As mentioned above, keep reviewing the differences between margins and padding, when to use one over the other.
 - I'm definitely getting better at using DevTools to make adjustments before going in and making the changes to my actual code. This is such a helpful process so I really want to continue doing this.
 
+- Update from 2023: I went back and fixed a lot of mistakes I made the first time I built this component. Too many to detail, but mostly to do with how I structured my HTML for the image, using fully semantic HTML, and using robust class names as part of a design system.
+
 ### Useful resources
 
 - [Resource 1](https://www.git-tower.com/learn/git/commands/git-restore) - This helped me learn how to discard uncommitted local changes in git.
@@ -73,4 +75,4 @@ I didn't do a great job documenting my process during the first phase, when I in
 
 ## Acknowledgments
 
-AS ALWAYS, many thanks to Stack Overflow for saving me when I get lost, especially when I don't understand what's happening with Git.
+As always, many thanks to Stack Overflow for saving me when I get lost, especially when I don't understand what's happening with Git.
