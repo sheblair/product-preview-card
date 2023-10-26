@@ -113,8 +113,28 @@ p {
     color: hsl(228, 45%, 44%);
 }
 
-@media (min-width: 800px) {
 
+/* media queries */
+
+/* smallest phone screen size */
+@media (max-width: 270px) {
+    .card__product-price {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .card__product-price h1 {
+        margin: 0;
+    }
+
+    .card__product-price p {
+        padding: 0;
+        margin: 10px 0;
+    }
+}
+
+/* desktop styles */
+@media (min-width: 800px) {
     h1, p {
         margin: .5rem 0;
     }
