@@ -105,12 +105,17 @@ p {
 }
 
 .credit {
+    display: block;
     font-size: 11px;
     text-align: center;
 }
 
 .credit a {
     color: hsl(228, 45%, 44%);
+}
+
+.credit p {
+    margin: .2rem;
 }
 
 
@@ -130,6 +135,12 @@ p {
     .card__product-price p {
         padding: 0;
         margin: 10px 0;
+    }
+
+    .credit {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
